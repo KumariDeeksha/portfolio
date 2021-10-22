@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/558167cbf7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+    body {
+        background: url(/water-g7fd9e9b38_1920.jpg);
+    }
+   
+    .navbar {
+        /* margin-top: 20px; */
+        display: block;
+        background-color: black;
+        width: 100%;
+        height: 100px;
+        position: relative;
+        position: sticky;
+        z-index: 2;
+    }
+
+    .navbar img{
+        border: 2px solid red;
+        height: 50px;
+        width: 50px;
+        position: relative;
+        float: top;
+        
+    }
+    
+    h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 2.8rem;
+        font-variant: small-caps;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .right img {
+        border: 2px solid black;
+        height: 600px;
+        width: 300px;
+        margin-top: 10px;
+        border-radius: 400px;
+    }
+
+    .left {
+        /* border: 2px solid red;
+        background-color: white; */
+        display: block;
+        height: 40vw;
+        width: 50vw;
+        float: right;
+        position: relative;
+        font-size: 2.5rem;
+        font-family: fantasy;
+        margin-top: -50vw;
+        margin-right: 10vw;
+        margin-left: 70vw;
+        padding-top: 10vw;
+    
+    }
+    .left h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+    h2 {
+        color: brown;
+        font-style: italic;
+        text-align: center;
+    }
+
+   
+    .skill
+{
+    text-align: center;
+}
+
+    #about {
+        border: 2px solid black;
+        border-radius: 20px;
+        display: block;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        background-color: rgb(241, 238, 234);
+        height: 300px;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #about h3 {
+        font-size: 50px;
+        color: brown;
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .skills {
+        background: url(/cosmos-g4381b89de_1920.jpg);
+        height: 300px;
+        width: 100%;
+       z-index: -1;
+    }
+
+    .skills center {
+        font-size: 5vw;
+        color: white;
+        display: block;
+        align-items: center;
+    }
+    .skills{
+        display: flex;
+        justify-content: space-around;
+        /* grid-template-columns:100px; */
+    }
+    .item{
+        height: 250px;
+        width: 250px;
+        /* background-color: blanchedalmond; */
+        margin: 5px;
+    }
+    
+    .navbar{
+    display: flex;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+ 
+    .educate{
+      /* border: 2px solid red; */
+      background: url(/books-g6b5c0218e_1920.jpg);
+      height: 30vw;
+      width: 95vw;
+      margin: 20px;
+    }
+    #detail{
+        font-size: 4vw;
+        display: block;
+        text-align:center ;
+    }
+    .hello a{
+        font-size: 2rem;
+        padding: 30px;
+        text-decoration: none;
+        color: brown;
+        font-weight: bold;
+    }
+    
+    h2 {
+        color: brown;
+        font-style: italic;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    /* #item1{
+     background-image: url(/html5-g4c76ae79a_1920.jpg);
+     
+    } */
+   /* #items img{
+       display: inline-block;
+       position: absolute;   
+       height: 100px;    
+       } */
+    .container {
+        border: 2px solid white;
+        margin: 100px 80px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 35%;
+       
+    }
+
+    .form-group input {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 5px;
+        font-size: 1.5vw;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+.container {
+  
+  background-color:lightblue;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+@keyframes example {
+  from {background-color: lightblue;}
+  to {background-color: black;}
+}
+.foot{
+    display: block;
+        background-color: black;
+        width: 100%;
+        height: 100px;
+        position: relative;
+        z-index: 2;
+}
+.foot{
+   justify-content: center;
+    
+    align-items: center;
+    display: flex;
+}
+
+.fab{
+     color: #f8fbfc;
+     align-items: center;
+    padding-bottom: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.fab:hover{
+    color: silver;
+}
+</style>
+
+<body>
+    <div class="body">
+
+        <header class="header">
+            <div class="nav">
+           <ul class="navbar">
+               <li><a href="">Home</a></li>
+               <li><a href="#about">About Me</a></li>
+               <li><a href="#detail">Education</a></li>
+               <li><a href="#skill1">Skills</a></li>
+             
+           </ul>
+            </div>
+</header>
+
+    <div class="right">
+        <img src="/my pic.jpeg" alt="">
+    </div>
+    <div class="left">
+        <h2>Hello, <br>My Name is <br>Kumari Deeksha 
+       <br> I'm a Web <br> Developer</h2>
+    </div>
+    <div id="about">
+        <h3>About me</h3>
+        My Name is Kumari Deeksha.I am from sonebhadra district of Uttar Pradesh.I am from CSE(AI & ML) branch .I am a good learner and a nature lover.My hobbies include listening to the music,i love to play basketball.I like travelling amd exploring places.
+    </div>
+    <div class="skill"><h1 class="skill" id="skill1">My skills</h1></div>
+    <div class="skills" id="items">
+        <div class="item" id="item1"><img src="/html5-g4c76ae79a_1920.jpg" alt="" height="250px" width="250px"></div>
+        <div class="item" id="item2"><img src="/c-gc5a7f00b8_1920.jpg" alt="" height="250px" width="250px"></div>
+        <div class="item" id="item3"><img src="/css-gc1c2b1b6e_1280.png" alt="" height="250px" width="250px"></div>
+        <div class="item" id="item4"><img src="/c-logo-icon-28389.png" alt=""  height="250px" width="250px" ></div>
+    </div>
+    </div>
+    <div class="educate">
+        <div>
+            <div id="detail">
+            <h4>Education details</h4>
+        </div>
+        
+    </div>
+       <ul> <div class="hello">
+          <li><a href="">High school : 10 CGPA</a></li>
+          <li><a href="">Intermediate : 95%</a></li>
+          <li><a href="">First Year : 82% </a></li>
+        </div>
+       </ul>
+    </div>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="foot">
+        <a href="https://www.instagram.com/de.eksha5268/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+        <a href="" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/KumariDeeksha" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+</body>
+
+</html>
